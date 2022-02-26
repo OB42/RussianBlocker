@@ -1,6 +1,6 @@
 
 # RussianBlocker
-Detect Russian and Belarussian visitors to block or alert them and protest the war in Ukraine(works by checking timezone and languages as this is the easiest way to it unlimitedly for free on the frontend, should work 9 times out of 10, except for a few russians near the border)
+Detect Russian and Belarussian visitors to block or alert them and protest the war in Ukraine(works by checking timezone and languages as this is the easiest way to do it unlimitedly for free on the frontend, should work 9 times out of 10, except for a few russians near the border)
 
 Install
 
