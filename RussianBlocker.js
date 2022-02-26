@@ -32,14 +32,14 @@ const RussianBlocker = (function (){
         document.cookie = cname + "=" + cvalue + "; " + expires;
     }
 
-    const alertWithCustomMessage = (config) => (config.customMessage ? config.customMessage : "🇺🇦протест против войны🇺🇦");
+    const alertWithCustomMessage = (config) => alert(config.customMessage ? config.customMessage : "🇺🇦протест против войны🇺🇦");
 
     const redirectToUkrainianAnthem = (config = {}) => {
         if (shouldBeNotifiedToday(config.oncePerDay) && shouldBeBlocked(config.alsoBlockBelarussian)) window.location = "https://www.youtube.com/watch?v=xDeQVaoTvJM";
     }
 
     //redirect Russians to government.ru contact form to push them to protest
-    const redirectToRussianGovernementComplaints = (config = {}) => {
+    const redirectToRussianGovernmentComplaints = (config = {}) => {
         if (shouldBeNotifiedToday(config.oncePerDay) && shouldBeBlocked(config.alsoBlockBelarussian)) {
             alertWithCustomMessage(config)
             window.location = "http://services.government.ru/letters/";
@@ -53,7 +53,7 @@ const RussianBlocker = (function (){
     }
     return {
         redirectToUkrainianAnthem,
-        redirectToRussianGovernementComplaints,
+        redirectToRussianGovernmentComplaints,
         alert: alertRussians,
         shouldBeBlocked
     };
