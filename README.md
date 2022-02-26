@@ -10,7 +10,7 @@ Usage
 
     RussianBlocker.redirectToUkrainianAnthem(config/*optional*/)//redirect to a youtube video of the Ukrainian anthem
     
-    RussianBlocker.redirectToRussianGovernmentComplaints(config/*optional*/)//first open an alert() then redirect the visitors to a complaint form on the russian governement website
+    RussianBlocker.redirectToRussianGovernmentComplaints(config/*optional*/)//first open an alert()(you can customize message) then redirect the visitors to a complaint form on the russian governement website
     
     RussianBlocker.alert(config/*optional*/);//just open an alert() then let the visitors use the website
     
@@ -19,7 +19,7 @@ Usage
 For all methods besides shouldBeBlocked you can use the optional config argument that way:
 
     {
-      customMessage: "🇺🇦протест против войны🇺🇦",//change the default message for redirectToRussianGovernmentComplaints and alert methods
+      customMessage: "default:🇺🇦протест против войны🇺🇦(protest the war, might not be a perfect translation)",//change the default message for redirectToRussianGovernmentComplaints and alert methods
     
       oncePerDay: true,//set a cookie to only redirect/alert the users once per day
       
