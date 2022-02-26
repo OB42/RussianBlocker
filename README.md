@@ -19,7 +19,7 @@ Usage
 For all methods besides shouldBeBlocked you can use the optional config argument that way:
 
     {
-      customMessage: "default:🇺🇦протест против войны🇺🇦(protest the war, might not be a perfect translation)",//change the default message for redirectToRussianGovernmentComplaints and alert methods
+      customMessage: "default:🇺🇦протестуйте против войны!🇺🇦(protest the war, might not be a perfect translation)",//change the default message for redirectToRussianGovernmentComplaints and alert methods
     
       oncePerDay: true,//set a cookie to only redirect/alert the users only once per day
       
