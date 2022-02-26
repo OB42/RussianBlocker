@@ -23,7 +23,7 @@ For all methods besides shouldBeBlocked you can use the optional config argument
     
       oncePerDay: true,//set a cookie to redirect/alert the users only once per day
       
-      alsoBlockBelarussian: true//if you want to be stricter you can also target Belarussia as their governement facilitated the invasion
+      alsoBlockBelarussian: true//if you want to be stricter you can also target Belarus as their governement facilitated the invasion
     }
 
 
