@@ -32,7 +32,7 @@ const RussianBlocker = (function (){
         document.cookie = cname + "=" + cvalue + "; " + expires;
     }
 
-    const alertWithCustomMessage = (config) => alert(config.customMessage ? config.customMessage : "🇺🇦протест против войны🇺🇦");
+    const alertWithCustomMessage = (config) => alert(config.customMessage ? config.customMessage : "🇺🇦протестуйте против войны!🇺🇦");
 
     const redirectToUkrainianAnthem = (config = {}) => {
         if (shouldBeNotifiedToday(config.oncePerDay) && shouldBeBlocked(config.alsoBlockBelarussian)) window.location = "https://www.youtube.com/watch?v=xDeQVaoTvJM";
