@@ -10,7 +10,7 @@ Usage
 
     RussianBlocker.redirectToUkrainianAnthem(config/*optional*/)//redirect to a youtube video of the Ukrainian anthem
     
-    RussianBlocker.redirectToRussianGovernmentComplaints(config/*optional*/)//first open an alert()(you can customize message) then redirect the visitors to a complaint form on the russian governement website
+    RussianBlocker.redirectToRussianGovernmentComplaints(config/*optional*/)//first open an alert()(you can customize the message) then redirect the visitors to a complaint form on the russian governement website
     
     RussianBlocker.alert(config/*optional*/);//just open an alert() then let the visitors use the website
     
