@@ -21,9 +21,10 @@ For all methods besides shouldBeBlocked you can use the optional config argument
     {
       customMessage: "default:🇺🇦протест против войны🇺🇦(protest the war, might not be a perfect translation)",//change the default message for redirectToRussianGovernmentComplaints and alert methods
     
-      oncePerDay: true,//set a cookie to only redirect/alert the users once per day
+      oncePerDay: true,//set a cookie to only redirect/alert the users only once per day
       
       alsoBlockBelarussian: true//if you want to be stricter you can also target Belarussia as their governement facilitated the invasion
     }
 
 
+Feel free to send PR/issues if you see any areas that could be improved
