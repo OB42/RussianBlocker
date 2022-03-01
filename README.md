@@ -2,6 +2,7 @@
 # RussianBlocker
 Detect Russian and Belarussian visitors to block or alert them to protest the war in Ukraine(works by checking timezone and languages as this is the easiest way to do it unlimitedly for free on the frontend, should work 9 times out of 10, except for a few russians near the border)
 Disclaimer:will work less by 27/03 because of summer time, hopefully this will be behind us by then, or I'll edit the code at that time
+
 Install
 
 `<script src="https://cdn.jsdelivr.net/gh/ob42/RussianBlocker/RussianBlocker.js">`
